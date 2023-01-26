@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/icecream_animation_image"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/middle_blue"
+        android:layout_gravity="center"
+        android:text="@string/icecream_start_button"
+        android:layout_marginTop="40dp"
+        android:id="@+id/icecream_start"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/apricot"
+        android:layout_gravity="center"
+        android:text="@string/icecream_stop_button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/icecream_stop"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="@string/icecream_copyright_text"/>
+
+</LinearLayout>

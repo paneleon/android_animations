@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Playing with animations</string>
+    <string name="intro">Select option</string>
+
+    <string name="icecream_start_button">Start</string>
+    <string name="icecream_stop_button">Stop</string>
+    <string name="icecream_copyright_text">Images were retrieved from Freepik</string>
+
+    <string name="space_start_button">LAUNCH</string>
+    <string name="space_copyright_text">Images were retrieved from Flaticon</string>
+
+    <string-array name="menu_options">
+        <item>Ice Cream - Framed Animation</item>
+        <item>Space - Tween Animation</item>
+        <item>Canvas Drawing</item>
+    </string-array>
+
+    <string name="line_thickness">Line Thickness</string>
+    <string name="line_color">Line Color</string>
+    <string name="arrow_keys">Arrow Keys</string>
+    <string name="clear_button">Clear</string>
+
+    <string name="spinner_prompt">Hello spinner</string>
+    <string-array name="line_thickness_options">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+</resources>

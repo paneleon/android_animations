@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_space_blue"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="@string/space_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow_lemon"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:id="@+id/startAnimation"
+        >
+    </Button>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+
+        android:id="@+id/marsImage"
+        android:src="@drawable/mars"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/earthImage"
+        android:src="@drawable/earth"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="-60dp"
+        android:layout_marginBottom="-60dp"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/rocketImage"
+        android:src="@drawable/rocket"
+        android:layout_alignBottom="@id/earthImage"
+        android:layout_marginBottom="195dp"
+        android:layout_marginStart="20dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/cometImage"
+        android:src="@drawable/comet"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="-70dp" />
+
+
+    <TextView
+        android:text="@string/space_copyright_text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/space_blue"
+        android:gravity="end"/>
+
+</RelativeLayout>
